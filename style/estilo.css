@@ -9,8 +9,7 @@
   width: 280;
   margin: 5px 28px 10px 5px;
   padding: 10px;
-  display: inline-block;
-  
+  display: inline;
 }
 .aside{
   text-align: justify;
