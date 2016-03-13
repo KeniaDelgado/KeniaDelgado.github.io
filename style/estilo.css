@@ -9,22 +9,25 @@ header{
     height: 50px;
     width: auto;
     padding: 10px ;
-    text-align: center;
+    text-align: Left;
+    top: 0;
+
 }
-header a{
+header a h2{
+  margin-top: 10px;
   text-decoration: none;
   font-family: sans-serif;
   font-size: 30px;
   font-weight: bold;
   color: white;
+  float: left;
+  margin-right: 200px;
+
 }
 nav{
-  height: full;
-  width: 200px;
-  margin: 5px;
+  margin: 0 auto;
   text-align: center;
-  display: inline;
-
+  float: left;
 }
 nav ul{
   margin:0;
@@ -65,7 +68,7 @@ nav p {
 
 section{
   margin: 5px;
-  width: 780px;
+  width: 750px;
   float: left;
 }
 
@@ -110,4 +113,16 @@ h4{
 }
 h2{
   margin-left: 20px;
+}
+.bottom{
+  clear: both;
+  padding: 5px;
+}
+.bottom aside{
+  background-color: gray;
+  float: left;
+  width: 300;
+  margin: 5px;
+  padding: 10px;
+  display: block;
 }
