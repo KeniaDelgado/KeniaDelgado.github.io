@@ -120,7 +120,7 @@ h2{
   width: 300;
   margin: 5px 5px 10px 5px;
   padding: 10px;
-  display: block;
+  display: inline-block;
 }
 .aside{
   text-align: justify;
