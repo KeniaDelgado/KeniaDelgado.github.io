@@ -22,8 +22,8 @@ nav{
   height: full;
   width: 200px;
   margin: 5px;
-  float: left;
   text-align: center;
+  display: inline;
 
 }
 nav ul{
@@ -31,22 +31,23 @@ nav ul{
   padding:0;
   list-style-type:none;
   background-color: white;
+  overflow: hidden;
 }
 
 nav li{
-    margin-top: 6px;
-    padding: 5px 0 5px 0;
-    border-right: 4px solid #CAF2FA;
+    float: left;
 }
 nav li:hover{
   background: #59A59B;
-  border-right: 4px solid white;
   color: white;
-  transition-property: all;
   transition-duration: .8s;
 }
 
 nav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
   color: inherit;
 }
