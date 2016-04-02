@@ -53,7 +53,6 @@ header{
     height: 50px;
     width: auto;
     padding: 10px ;
-    text-align: Left;
     top: 0;
 
 }
@@ -65,13 +64,12 @@ header a h2{
   font-weight: bold;
   color: white;
   float: left;
-  margin-right: 300px;
 
 }
 nav{
   margin: 0 auto;
   text-align: center;
-  float: left;
+  float: right;
 }
 nav ul{
   margin:0;
@@ -102,12 +100,7 @@ nav li a:active{
   text-decoration: none;
   color:#00ddff;
 }
-nav p {
-  padding: 5px;
-  background-color: #59A59B;
-  color: white;
-  font-weight: bold;
-}
+
 
 
 section{
@@ -127,8 +120,6 @@ footer p{
   text-align: center;
 }
 article{
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-  background: #B4F2E1;
   margin-bottom: 40px;
   padding: 20px;
   width: 700px;
@@ -138,6 +129,9 @@ article img{
   align-items: center;
   display: block;
   margin: 0 auto;
+  width: 50%;
+  border: 5px solid white;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 
 }
 article p{
