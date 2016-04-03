@@ -59,12 +59,12 @@ header{
   max-width: 1400px;
   box-shadow: 0 0 15px rgba(000, 0 , 0, 0.5);
   background: white;
-  height: 80px;
+  height: 90px;
 
 }
 
 header img{
-  height: 80px;
+  height: 90px;
   margin-left: 20px;
 }
 
@@ -75,7 +75,7 @@ nav{
 nav ul{
   margin: 0;
   padding: 0;
-  height: 80px;
+  height: 90px;
   list-style-type:none;
   overflow: hidden;
 }
@@ -84,7 +84,7 @@ nav li{
     transition: .8s linear;
     float: left;
     width: 150px;
-    height: 100px;
+    height: 90px;
     text-align: center;
 }
 nav li:hover{
