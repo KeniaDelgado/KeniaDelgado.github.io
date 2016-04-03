@@ -55,7 +55,7 @@ header{
 		margin: -7px -5px 15px -7px ;
     box-shadow: 0 0 15px rgba(000, 0 , 0, 0.5);
     background: white;
-    height: 60px;
+    height: 80px;
     width: 100%;
     padding: 10px ;
 }
@@ -69,7 +69,7 @@ header a h2{
   float: left;
 }
 header img{
-  height: 80px;
+  height: 100px;
   margin: -10px;
   margin-left: 20px;
 }
@@ -80,8 +80,8 @@ nav{
   float: right;
 }
 nav ul{
-  height: 81px;
-  margin:-11px 0 0 0 ;
+  height: 100px;
+  margin:-10px 0 -10px 0 ;
   padding:0;
   list-style-type:none;
   overflow: hidden;
@@ -91,7 +91,7 @@ nav li{
     transition: .8s linear;
     float: left;
     width: 150px;
-    height: 81px;
+    height: 100px;
     text-align: center;
 }
 nav li:hover{
@@ -102,7 +102,7 @@ nav li:hover{
 nav li a{
   display: block;
   color: inherit;
-  padding-top: 30px;
+  padding-top: 35px;
   text-decoration: none;
 
 }
@@ -110,7 +110,7 @@ nav li a{
 #in{
   display: block;
   color: inherit;
-  padding-top: 25px;
+  padding-top: 30px;
   text-decoration: none;
 }
 nav li a:active{
