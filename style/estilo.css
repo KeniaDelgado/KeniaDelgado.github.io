@@ -1,60 +1,63 @@
+body{
+  font-family: Verdana,sans-serif;
+  line-height: 1.5;
+}
 .cuerpo{
-  width: 1000px;
+
+  width: 1100px;
   margin: 0 auto;
-  font-family: sans-serif;
+
 }
 .bottom{
+  background-color: white;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
   float: left;
-  width: 300px;
+  width: 320px;
   height: 250px;
-  margin: 5px 5px 10px 5px;
+  margin: 5px 12px 10px 5px;
   padding: 10px;
   overflow: scroll;
 }
 .bottom a{
-  color:#59A59B;
+  color: #ff6673;
 }
 .bottom img{
   width: 300px;
 }
 
-.bottom p img{
-  width: 20px;
-  margin: auto;
-  vertical-align: middle;
-}
-.bottom p img + a{
+.bottom p i + a{
   text-decoration: none;
   color: black;
   margin-left: 5px;
 }
 .aside{
   text-align: justify;
-  width: 240px;
+  width: 260px;
   float: left;
   font-size: 10px;
 }
 .aside aside img{
-  width: 230px;
+  width: 250px;
   margin: -10px;
 }
 .aside a{
-  color: #59A59B;
+  color:  #ff6673;
 }
 .aside aside{
+  background-color: white;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
   padding: 10px;
   margin: 0 0 10px 10px;
+  width: 230px;
 }
 header{
-		margin: 0 auto;
-    background: #353A38;
-    height: 50px;
-    width: auto;
-    padding: 10px ;
-    top: 0;
 
+		margin: -7px -5px 15px -7px ;
+    box-shadow: 0 0 15px rgba(000, 0 , 0, 0.5);
+    background: white;
+    height: 60px;
+    width: 100%;
+    padding: 10px ;
 }
 header a h2{
   margin-top: 10px;
@@ -62,50 +65,67 @@ header a h2{
   font-family: sans-serif;
   font-size: 30px;
   font-weight: bold;
-  color: white;
+  color: black;
   float: left;
-
 }
+header img{
+  height: 80px;
+  margin: -10px;
+  margin-left: 20px;
+}
+
 nav{
+
   margin: 0 auto;
-  text-align: center;
   float: right;
 }
 nav ul{
-  margin:0;
+  height: 81px;
+  margin:-11px 0 0 0 ;
   padding:0;
   list-style-type:none;
-  background-color: white;
   overflow: hidden;
 }
 
 nav li{
+    transition: .8s linear;
     float: left;
+    width: 150px;
+    height: 81px;
+    text-align: center;
 }
 nav li:hover{
-  background: #59A59B;
+  background-color: #ff6673;
   color: white;
-  transition-duration: .8s;
 }
 
 nav li a{
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
   color: inherit;
+  padding-top: 30px;
+  text-decoration: none;
+
+}
+
+#in{
+  display: block;
+  color: inherit;
+  padding-top: 25px;
+  text-decoration: none;
 }
 nav li a:active{
   text-decoration: none;
-  color:#00ddff;
+  color:white;
+  background: #ff6673;
 }
 
 
 
 section{
-  width: 750px;
+  background-color: white;
+  width: 800px;
   float: left;
+  margin-bottom: 40px;
 }
 
 footer{
@@ -122,27 +142,22 @@ footer p{
 article{
   margin-bottom: 40px;
   padding: 20px;
-  width: 700px;
+  width: 760px;
 }
 article img{
-  border-radius: 5px;
   align-items: center;
   display: block;
   margin: 0 auto;
-  width: 50%;
+  width: 100%;
   border: 5px solid white;
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 
 }
 article p{
   text-align: justify;
 }
-article p::first-letter{
-  font-size: 16px;
-  font-weight: bold;
-}
+
 article p::selection{
-  background-color:#59A59B;
+  background-color: #ff6673;
   color:white;
 }
 h4{
@@ -150,4 +165,24 @@ h4{
 }
 h2{
   margin-left: 20px;
+}
+
+ table, th, td, tfoot{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td , tfoot{
+  padding: 10px;
+  text-align: center;
+}
+th{
+  background-color: #ff99a2;
+}
+
+td:hover{
+  color: white;
+  background-color:#ff6673;
+}
+#profile{
+width: 25%;
 }
