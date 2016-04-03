@@ -51,18 +51,20 @@ body{
   width: 230px;
 }
 header{
+  margin-top: -7px;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-left: auto;
+  position: relative;
+  max-width: 1400px;
+  box-shadow: 0 0 15px rgba(000, 0 , 0, 0.5);
+  background: white;
+  height: 80px;
 
-		margin: -7px -5px 15px -7px ;
-    box-shadow: 0 0 15px rgba(000, 0 , 0, 0.5);
-    background: white;
-    height: 80px;
-    width: 1350px;
-    padding: 10px ;
 }
 
 header img{
-  height: 100px;
-  margin: -10px;
+  height: 80px;
   margin-left: 20px;
 }
 
@@ -71,9 +73,9 @@ nav{
   float: right;
 }
 nav ul{
-  margin:-10px 0 -10px 0 ;
+  margin: 0;
   padding: 0;
-  height: 100px;
+  height: 80px;
   list-style-type:none;
   overflow: hidden;
 }
