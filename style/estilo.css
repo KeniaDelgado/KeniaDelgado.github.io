@@ -119,13 +119,15 @@ nav li a:active{
 
 
 section{
+  margin: 0 auto 40px auto;
   background-color: white;
   width: 800px;
   float: left;
-  margin-bottom: 40px;
 }
 
 footer{
+  width: 1340px;
+  margin: auto;
   clear: both;
   color: white;
   background: #353A38;
